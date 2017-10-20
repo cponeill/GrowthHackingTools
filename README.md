@@ -1,3 +1,3 @@
 # GrowthHackingTools
 
-This is a collection of software tools I use in the command line for "growth hacking" purposes. 
+This is a collection of growth engineering software tools used in the command line. Tech includes the Buffer API, Python, and the Twitter API.
