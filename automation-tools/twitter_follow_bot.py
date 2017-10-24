@@ -42,7 +42,7 @@ def auto_fav(q, count=5, result_type="recent"):
             print("error: %s" % (str(e)))
 
 
-def auto_rt(q, count=2, result_type="recent"):
+def auto_rt(q, count=1, result_type="recent"):
     """
         Retweets tweets that match a certain phrase (hashtag, word, etc.)
     """
@@ -87,7 +87,7 @@ def get_do_not_follow_list():
     return do_not_follow
 
 
-def auto_follow(q, count=2, result_type="recent"):
+def auto_follow(q, count=1, result_type="recent"):
     """
         Follows anyone who tweets about a specific phrase (hashtag, word, etc.)
     """
